@@ -1,0 +1,21 @@
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+}
+
+body {
+    background-color: #d0d8f7;
+}
+
+#hero {
+    background-image: url(pic/herobillede.png);
+    background-size: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vw;
+}
