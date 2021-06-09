@@ -85,18 +85,18 @@ a:hover {
 
 #section_one h1 {
     font-family: 'Bebas Neue', sans-serif;
-    color: #DC6F2B;
+    color: #130f61;
     font-size: 3rem;
     text-align: center;
     padding-top: 60px;
-    margin: 20px;
+    margin: 80px;
     display: grid;
     align-items: center;
     justify-content: center;
 }
 
 .tema2 {
-    background-image: url(pic/flowers.webp);
+    background-image: url(pic/tema2pic.webp);
     background-size: cover;
     aspect-ratio: 1/1;
     margin: 10px;
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .tema3 {
-    background-image: url(pic/flowers.webp);
+    background-image: url(pic/tema3pic.webp);
     background-size: cover;
     aspect-ratio: 1/1;
     margin: 10px;
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .tema4 {
-    background-image: url(pic/flowers.webp);
+    background-image: url(pic/tema4pic.webp);
     background-size: cover;
     aspect-ratio: 1/1;
     margin: 10px;
@@ -126,7 +126,7 @@ a:hover {
 }
 
 .tema5 {
-    background-image: url(pic/flowers.webp);
+    background-image: url(pic/tema5pic.webp);
     background-size: cover;
     aspect-ratio: 1/1;
     margin: 10px;
@@ -136,7 +136,9 @@ a:hover {
 }
 
 #section_one a {
-    font-size: 2rem;
+    font-size: 3rem;
+    background-color: #130f6181;
+    padding: 1vw;
 }
 
 
@@ -213,7 +215,7 @@ margin: 4vw;
 }
 
 .butik {
-    padding: 5vw;
+    padding: 2vw;
     background-color: white;
     line-height: 0.7;
     text-align: center;
@@ -250,6 +252,150 @@ margin: 4vw;
     text-align: center;
     margin-top: 5vw;
 }
+
+
+/* TEMA 2 SITE */
+
+#resultat {
+    padding: 10vw;
+}
+
+.resultat_wrapper {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+#resultat h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 15vw;
+    margin: 20px;
+}
+
+.tema2_link h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #130f61; 
+}
+
+.tema2_link p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+/* TEMA 3 SITE */
+
+#resultat2 {
+    padding: 10vw;
+}
+
+.resultat_wrapper2 {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+#resultat2 h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 15vw;
+    margin: 20px;
+}
+
+.tema3_link h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #130f61; 
+}
+
+.tema3_link p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* TEMA 4 SITE */
+
+#resultat3 {
+    padding: 10vw;
+}
+
+.resultat_wrapper3 {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+#resultat3 h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 15vw;
+    margin: 20px;
+}
+
+.tema4_link h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #130f61; 
+}
+
+.tema4_link p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+
+/* TEMA 5 SITE */
+
+#resultat4 {
+    padding: 10vw;
+}
+
+.resultat_wrapper4 {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+#resultat4 h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 15vw;
+    margin: 20px;
+}
+
+.tema5_link h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #130f61; 
+}
+
+.tema5_link p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
 
 /* ALLE TEMASIDER */
 
