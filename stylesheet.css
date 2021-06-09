@@ -85,10 +85,10 @@ a:hover {
 
 #section_one h1 {
     font-family: 'Bebas Neue', sans-serif;
-    color: white;
+    color: #DC6F2B;
     font-size: 3rem;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
     margin: 20px;
     display: grid;
     align-items: center;
@@ -141,6 +141,129 @@ a:hover {
 
 
 
+/* OM MIG SIDE */
+
+
+#tekst_wrap {
+    background-color: white;
+    text-align: start;
+    justify-self: center;
+    padding: 20px;
+}
+
+#tekst_wrap p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+#nummer_et .grid_wrapper #tekst_wrap h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+}
+
+#info_om_mig .info_wrapper {
+opacity: 100%;
+background-color: white;
+padding: 2vw;
+text-align: start;
+margin: 4vw;
+}
+
+
+#info_om_mig .info_wrapper p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* cv */
+
+#section_cv {
+    padding: 10vw;
+}
+
+#section_cv h2 {
+    font-family: 'Bebeas Neue', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #528ED3;
+}
+
+#skole {
+    padding: 5vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+}
+
+#section_cv h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #130f61;;
+}
+
+#section_cv h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#section_cv p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.butik {
+    padding: 5vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.malaga {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+}
+
+
+.tjener {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+}
+
+.vikar {
+    padding: 2vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.afrika {
+    padding: 5vw;
+    background-color: white;
+    line-height: 0.7;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+/* ALLE TEMASIDER */
+
+.overskrift h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #130f61;
+    font-size: 3rem;
+    padding-top: 15vw;
+    margin: 20px;
+}
+
+
+
 /* MEDIAS */
 
 
@@ -188,7 +311,7 @@ a:hover {
     #hero h2 {
         position: absolute;
         top: 590px;
-        right: -350px;
+        left: 700px;
         font-size: 2.5rem;
         padding: 0px;
     }
@@ -199,8 +322,8 @@ a:hover {
     #hero h2 {
         position: absolute;
         top: 560px;
-        right: -510px;
-        font-size: 4rem;
+        left: 761px;
+        font-size: 3.5rem;
         padding: 0px;
     }
     
@@ -208,6 +331,7 @@ a:hover {
 
 
 
+/*PORTFOLIO*/
 /* media section_one */
 
 @media (min-width: 640px) {
@@ -216,27 +340,56 @@ a:hover {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         padding: 20px;
-        margin-top: 50px;
+        margin-top: 60px;
+    }
+}
+
+
+
+/*OM MIG SIDE */
+
+/* SECTION NUMMER_ET*/
+
+@media (min-width: 640px) {
+
+    #nummer_et {
+        width: 100%;
+        box-sizing: border-box;
     }
 
+    #nummer_et .grid_wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+    }
 
+    #nummer_et .grid_wrapper #billede_mig1 {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
 
+    #nummer_et .grid_wrapper #tekst_wrap {
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
 
-/* @media (min-width: 1150px) {
-    #hero h2 {
-        top: 35rem;
-        left: 35rem;
-        font-size: 3rem;
+    #nummer_et .grid_wrapper #billede_mig6 {
+        grid-column: 3/5;
+        grid-row: 3/4;
+        height: 100px;
+    }
+
+}
+
+/* @media (min-width: 750px) {
+
+    #section_cv .cv_wrapper {
+        max-width: 400px;
     }
 } */
 
 
 
-/* position: absolute;
-    bottom: 10px;
-    right: 0px; */
 
-/* 
-position: absolute;
-    bottom: 20px;
-    right: 20px; */
+
