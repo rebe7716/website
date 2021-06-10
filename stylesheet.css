@@ -50,34 +50,9 @@ body {
     
 }
 
-/* menubar */
-
-header nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    padding: 0;
-    gap: 20px;
-    overflow-x: auto;
-    font-size: 1.3rem;
-    scrollbar-width: none;
-}
-
-a {
-    font-family: "Bebas Neue", sans-serif;
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    color: white;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
 
 
 
-
-a:hover {
-    color: #130f61;
-}
 
 
 /* PORTFOLIO SIDE */
@@ -413,7 +388,89 @@ margin: 4vw;
 /* MEDIAS */
 
 
+
+
+
 /* MENUBAR */
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    overflow-x: auto;
+    font-size: 1.3rem;
+    scrollbar-width: none;
+}
+
+a {
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+
+a:hover {
+    color: #130f61;
+}
+
+.hidden {
+    /* display: none;
+    transform: scale(0); */
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+@media (max-width:600px) {
+    .hidden {
+        display: none;
+    }
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+
+
+
+
+#menuknap {
+    display: inline-block;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: flex;
+        gap: 50px;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+
+
+
 
 @media (min-width: 940px) {
     a {
@@ -527,6 +584,10 @@ margin: 4vw;
     }
 
 }
+
+
+
+
 
 /* @media (min-width: 750px) {
 
