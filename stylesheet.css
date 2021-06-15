@@ -231,6 +231,111 @@ margin: 4vw;
 
 /* TEMA 2 SITE */
 
+
+/*moodboard*/
+
+.overskrift h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.8rem;
+    padding: 0.8em;
+    text-align: center;
+}
+
+.infotekst_tema {
+    padding: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+
+#moodboard_del h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#moodtekst_tema2 {
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.8;
+    text-align: start;
+}
+
+/*styletile*/
+
+#styletekst_tema2 {
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.8;
+    text-align: start;
+}
+
+#styletile_del h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+#wireframe_del h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+
+/*wireframes*/
+
+
+#wireframe_del h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#wireframetekst_tema22 {
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.8;
+    text-align: start;
+}
+
+/*splashbillede*/
+
+
+#splashbillede_del h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#splashbilledetekst_tema2 { 
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.8;
+    text-align: start;
+}
+
+/*resultat link sektion */
+
 #resultat {
     padding: 10vw;
 }
@@ -238,7 +343,7 @@ margin: 4vw;
 .resultat_wrapper {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.2;
     text-align: center;
     margin-top: 5vw;
 }
@@ -248,7 +353,6 @@ margin: 4vw;
     font-family: 'Bebas Neue', sans-serif;
     color: #528ED3;
     font-size: 2rem;
-    padding-top: 15vw;
     margin: 20px;
 }
 
@@ -267,6 +371,178 @@ margin: 4vw;
 
 /* TEMA 3 SITE */
 
+
+
+
+#ekstra_tekst_tema3 {
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+
+/* moodboard */ 
+#moodboard_del1 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+/* styletile del*/
+
+#styletile_del1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+/*prototype skitser */ 
+
+#prototype_del1 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#lofi_tema3 h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #DC6F2B;
+    font-size: 1.8rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+#hifi_tema3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #DC6F2B;
+    font-size: 1.8rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+/* tests */
+
+#test_del1 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2.5rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.tanke_test h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #DC6F2B;
+    font-size: 1.8rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+#changes h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #DC6F2B;
+    font-size: 1.8rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.change1 p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    color: #DC6F2B;;
+    line-height: 1.5;
+    text-align: start;
+}
+
+#tanketekst_1{
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+.tanke_test2 h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #CB2B1D;
+    font-size: 1.8rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#tanke_tekst2 {
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+#changes_1 h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #CB2B1D;
+    font-size: 1.8rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#changes_tekst {
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+/*pitch link*/
+
+#pitch {
+    padding: 10vw;
+}
+
+#pitch h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.pitch_wrapper3 {
+    padding: 2vw;
+    background-color: white;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.pitch_link h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 1.3rem;
+    color: #130f61;
+}
+
+.pitch_link p {
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+/* resultat */
 #resultat2 {
     padding: 10vw;
 }
@@ -274,9 +550,9 @@ margin: 4vw;
 .resultat_wrapper2 {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.2;
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 
 #resultat2 h2 {
@@ -284,7 +560,6 @@ margin: 4vw;
     font-family: 'Bebas Neue', sans-serif;
     color: #528ED3;
     font-size: 2rem;
-    padding-top: 15vw;
     margin: 20px;
 }
 
@@ -299,8 +574,123 @@ margin: 4vw;
     font-size: 1rem;
 }
 
-
 /* TEMA 4 SITE */
+
+.infotekst_tema4 {
+    padding: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+.infotekst_tema4 p {
+font-family: 'Bebas Neue', sans-serif;
+line-height: 1.5;
+font-size: 1.5rem;
+text-align: start;
+}
+
+/*idegenerering */
+
+#idegenerering h3 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #130f61;
+    font-size: 2.3rem;
+    padding-top: 5rem;
+    margin: 20px;
+}
+
+#ide_tekst h4, #idegenerering1 h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #CB2B1D;
+    font-size: 1.8rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#ide_tekst p, #koncept_tekst p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+#idegenerering1 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#uioverskrift h4, #moodboard_tema4 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #CB2B1D;
+    font-size: 1.8rem;
+    padding-top: 2em;
+    text-align: center;
+
+}
+
+#UI_tekst p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 6vw;
+}
+
+
+#moodboardstyle_tekst {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 3vw; 
+
+}
+
+/* aktivitet og state */ 
+
+#diagrammer h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+#diagrammer p, #resultat_spil_pic p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 4vw;
+}
+
+/* færdige spil */
+
+#resultat_spil_pic h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+
+
+/* resultat */
 
 #resultat3 {
     padding: 10vw;
@@ -309,7 +699,7 @@ margin: 4vw;
 .resultat_wrapper3 {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.2;
     text-align: center;
     margin-top: 5vw;
 }
@@ -319,7 +709,6 @@ margin: 4vw;
     font-family: 'Bebas Neue', sans-serif;
     color: #528ED3;
     font-size: 2rem;
-    padding-top: 15vw;
     margin: 20px;
 }
 
@@ -339,24 +728,174 @@ margin: 4vw;
 
 /* TEMA 5 SITE */
 
-#resultat4 {
+/*intro*/
+
+.overskrift p {
+    padding: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 3vw;
+}
+
+#pilot_projekt h3 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 2rem;
+    color: #130f61; 
+    text-align: center;
+    padding-top: 10vw;
+}
+
+#pilot_projekt p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+
+
+/*video*/
+
+#video_section h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 10%;
+}
+
+/*redesign */
+
+#redesign h2 {
+    font-family: 'Bebeas Neue', sans-serif;
+    font-size: 2rem;
+    color: #130f61; 
+    text-align: center;
+}
+
+#redesign h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#redesign p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+/*forarbejde */
+
+#moodboard_del_tema5 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#moodboard_del_tema5 p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+#moodboard_del_tema5 .moodboard_del5 h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #CB2B1D;
+    font-size: 1.8rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+/* metoder */
+
+#metoder_tema5 h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 10vw;
+}
+
+#metoder_tema5 p { 
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+/*BERT TEST */
+
+#bert_testen h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #CB2B1D;
+    font-size: 1.8rem;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+#bert_testen p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+/*afsluttende */
+
+#afsluttende p {
+    padding: 2vw;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    line-height: 1.2;
+    text-align: start;
+    margin-top: 5vw;
+}
+
+
+/* resultat */ 
+
+
+.resultat4 {
     padding: 10vw;
 }
 
 .resultat_wrapper4 {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.2;
     text-align: center;
     margin-top: 5vw;
 }
 
-#resultat4 h2 {
+.resultat4 h2 {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     color: #528ED3;
     font-size: 2rem;
-    padding-top: 15vw;
     margin: 20px;
 }
 
@@ -545,6 +1084,23 @@ a:hover {
         padding: 20px;
         margin-top: 60px;
     }
+
+
+    #changes_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 60px;
+    }
+
+    #stylemood_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 60px;
+    }
 }
 
 
@@ -583,18 +1139,14 @@ a:hover {
         height: 100px;
     }
 
+    #wireframe_billede {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
 }
 
-
-
-
-
-/* @media (min-width: 750px) {
-
-    #section_cv .cv_wrapper {
-        max-width: 400px;
-    }
-} */
 
 
 
