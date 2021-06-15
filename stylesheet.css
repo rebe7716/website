@@ -242,6 +242,23 @@ margin: 4vw;
     text-align: center;
 }
 
+#information p {
+    padding: 3vw;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+#information h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #528ED3;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
 .infotekst_tema {
     padding: 3vw;
     font-family: 'Bebas Neue', sans-serif;
@@ -327,6 +344,15 @@ margin: 4vw;
 }
 
 #splashbilledetekst_tema2 { 
+    padding: 3vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    line-height: 1.8;
+    text-align: start;
+}
+
+/* afslut */
+#tema_2afslut p {
     padding: 3vw;
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -1131,12 +1157,6 @@ a:hover {
     #nummer_et .grid_wrapper #tekst_wrap {
         grid-column: 3/5;
         grid-row: 2/3;
-    }
-
-    #nummer_et .grid_wrapper #billede_mig6 {
-        grid-column: 3/5;
-        grid-row: 3/4;
-        height: 100px;
     }
 
     #wireframe_billede {
