@@ -169,7 +169,7 @@ margin: 4vw;
 #skole {
     padding: 5vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -192,7 +192,7 @@ margin: 4vw;
 .butik {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.5;
     text-align: center;
     margin-top: 5vw;
 }
@@ -200,7 +200,7 @@ margin: 4vw;
 .malaga {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.5;
     text-align: center;
 }
 
@@ -208,14 +208,14 @@ margin: 4vw;
 .tjener {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.5;
     text-align: center;
 }
 
 .vikar {
     padding: 2vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.5;
     text-align: center;
     padding-bottom: 5vw;
 }
@@ -223,7 +223,7 @@ margin: 4vw;
 .afrika {
     padding: 5vw;
     background-color: white;
-    line-height: 0.7;
+    line-height: 1.5;
     text-align: center;
     margin-top: 5vw;
 }
@@ -766,7 +766,7 @@ text-align: start;
     margin-top: 3vw;
 }
 
-#pilot_projekt h3 {
+#pilot_projekt h2 {
     font-family: 'Bebeas Neue', sans-serif;
     font-size: 2rem;
     color: #130f61; 
